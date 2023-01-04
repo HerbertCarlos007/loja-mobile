@@ -8,8 +8,10 @@ import { styles } from './styles';
 export function ListProducts({ data }) {
     return (
         <View style={styles.container}>
-            <Text>{data.name}</Text>
-            <Text>{data.price}</Text>
+            <View style={styles.content}>
+                <Text>{data.name}</Text>
+                <Text>{data.price}</Text>
+            </View>
         </View>
     );
 }
