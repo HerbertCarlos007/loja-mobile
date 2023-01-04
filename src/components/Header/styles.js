@@ -7,12 +7,11 @@ export const styles = StyleSheet.create({
     container: {
         backgroundColor: '#800fff',
         paddingTop: statusBarHeight,
-        alignItems: 'center',
-        justifyContent: 'center'
+        alignItems: 'center', 
     },
 
-    content: {
-
+    storeName: {
+        fontSize: 24,
+        color: '#fff'
     }
-
 })

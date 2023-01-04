@@ -11,7 +11,8 @@ export function Header() {
                 backgroundColor='transparent'
                 translucent
             />
-            <Text style={styles.content}>Hello World</Text>
+
+            <Text style={styles.storeName}>Store</Text>
         </View>
     );
 }
