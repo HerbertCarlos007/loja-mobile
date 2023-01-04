@@ -4,9 +4,14 @@ import { View, Text, StatusBar } from 'react-native';
 import { styles } from './styles';
 
 export function Header() {
-  return (
-    <View style={styles.container}>
-        <Text>Hello World</Text>
-    </View>
-  );
+    return (
+        <View style={styles.container}>
+            <StatusBar
+                barStyle='light-content'
+                backgroundColor='transparent'
+                translucent
+            />
+            <Text style={styles.content}>Hello World</Text>
+        </View>
+    );
 }
